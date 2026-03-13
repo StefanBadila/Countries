@@ -1,0 +1,8 @@
+### @name GetAll
+GET http://localhost:8080/api/countries
+
+### @name GetID5
+GET http://localhost:8080/api/countries/id/5
+
+### @name GetRomania
+GET http://localhost:8080/api/countries/name/Romania

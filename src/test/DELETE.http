@@ -1,0 +1,4 @@
+### @name DeleteID1
+DELETE http://localhost:8080/api/countries/1
+### @name DeleteID100
+DELETE http://localhost:8080/api/countries/100

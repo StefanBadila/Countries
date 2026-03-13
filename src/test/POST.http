@@ -1,0 +1,37 @@
+### @name AddOK
+POST http://localhost:8080/api/countries
+Content-Type: application/json
+
+{
+  "country": "USA",
+  "capital": "Washington",
+  "population": 8000000
+}
+
+### @name AddWithoutCountry
+POST http://localhost:8080/api/countries
+Content-Type: application/json
+
+{
+"country": "",
+"capital": "Washington",
+"population": 8000000
+}
+
+### @name AddWithoutCapital
+POST http://localhost:8080/api/countries
+Content-Type: application/json
+
+{
+  "country": "USA",
+  "population": 8000000
+}
+
+### @name AddWithoutPopulation
+POST http://localhost:8080/api/countries
+Content-Type: application/json
+
+{
+  "country": "USA",
+  "capital": "Washington"
+}

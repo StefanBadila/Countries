@@ -1,0 +1,9 @@
+### @name PutID1Population5
+PUT http://localhost:8080/api/countries/1
+Content-Type: application/json
+
+{
+  "country": "Albaniaa",
+  "capital": "Tirana",
+  "population": 5
+}
